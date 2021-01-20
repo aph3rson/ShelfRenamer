@@ -76,19 +76,9 @@ Special thanks to:
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=818773962]HugsLib[/url], for making custom storage easy.
 - [url=https://github.com/pardeike/Harmony]Harmony[/url], for making patching easy.
 
-[h1]Bugs[/h1]
-
-Please report bugs on this mod page or [url=https://github.com/pjf/ShelfRenamer/issues]via github[/url].
-
-[h1]License and Source[/h1]
+[h1]License[/h1]
 
 This code is released under the [url=https://github.com/pjf/ShelfRenamer/blob/master/LICENSE]MIT License[/url].
-
-Github Source: https://github.com/pjf/ShelfRenamer
-
-[h1]Support my mods[/h1]
-
-If you enjoy my mods, you can [url=https://patreon.com/_pjf]support me on Patreon[/url]
 
 [img]https://i.imgur.com/Rs6T6cr.png[/img]
 [list]
@@ -101,4 +91,3 @@ If you enjoy my mods, you can [url=https://patreon.com/_pjf]support me on Patreo
 [/list]
 </description>
 </ModMetaData>
-
