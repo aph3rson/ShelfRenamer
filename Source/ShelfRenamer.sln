@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfRenamer", "ShelfRenamer.csproj", "{D810F7D6-3075-45A7-B7AF-D02F5443755C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfRenamer", "ShelfRenamer\ShelfRenamer.csproj", "{D810F7D6-3075-45A7-B7AF-D02F5443755C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

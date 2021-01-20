@@ -1,8 +1,9 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using Verse;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 namespace ShelfRenamer
 {
@@ -20,12 +21,12 @@ namespace ShelfRenamer
             {
                 return;
             }
-
             // If it has a user-accessible storage tab, then allow renaming.
             if (__instance.StorageTabVisible)
             {
+                var tempList = __result.ToList();
                 // Add our own rename button, since none appears to exist already.
-                __result = __result.Add(new Command_Action
+                tempList.Add(new Command_Action
                 {
                     icon = ContentFinder<Texture2D>.Get("UI/Icons/ShelfRenamer", true),
                     defaultDesc = "Rename".Translate(),
@@ -33,13 +34,14 @@ namespace ShelfRenamer
                     activateSound = SoundDef.Named("Click"),
                     action = delegate { Find.WindowStack.Add(new Dialog_Rename(__instance)); },               
                 });
+                __result = tempList;
             }
         }
     }
 
     // Label checks if we've got a renamed shelf. If not, runs the original code.
     // Building_Storage inherits Label from Thing, so that's what we need to patch.
-    [HarmonyPatch(typeof(Building_Storage))]
+    [HarmonyPatch(typeof(Thing))]
 	[HarmonyPatch("Label", MethodType.Getter)]
     public static class Patch_Building_Storage_Label
     {
@@ -56,7 +58,7 @@ namespace ShelfRenamer
         }
     }
 
-    [HarmonyPatch(typeof(Building_Storage))]
+    [HarmonyPatch(typeof(Building))]
     [HarmonyPatch("DeSpawn")]
     public static class Patch_Building_Storage_DeSpawn
     {

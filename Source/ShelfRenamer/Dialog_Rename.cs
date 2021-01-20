@@ -6,7 +6,7 @@ namespace ShelfRenamer
 {
     public class Dialog_Rename : Verse.Dialog_Rename
     {
-        private Building_Storage building;      
+        private readonly Building_Storage building;      
 
         public Dialog_Rename(Building_Storage building) :base()
         {

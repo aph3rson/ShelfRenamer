@@ -17,11 +17,8 @@ namespace ShelfRenamer
         {
             Instance = this;
         }
-        
-        public override string ModIdentifier
-        {
-            get { return "ShelfRenamer"; }
-        }
+
+        public override string ModIdentifier => "ShelfRenamer";
 
         public override void WorldLoaded()
         {
@@ -51,7 +48,7 @@ namespace ShelfRenamer
 
         public void Log(string str)
         {
-            this.Logger.Message(str);
+            Logger.Message(str);
         }
 
         public void ClearName(Thing thing)

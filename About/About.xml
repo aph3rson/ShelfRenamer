@@ -1,8 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Shelf Renamer</name>
-    <author>Teellox</author>
-    <targetVersion>1.0.2059</targetVersion>
-    <description>Rename shelves and other storage buildings.</description>
+  <name>Shelf Renamer</name>
+  <packageId>Mlie.ShelfRenamer</packageId>
+  <author>Teellox</author>
+  <url>https://github.com/emipa606/ShelfRenamer</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>UnlimitedHugs.HugsLib</packageId>
+      <displayName>HugsLib</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+      <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>UnlimitedHugs.HugsLib</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Teelloxs mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1515278481
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ShelfRenamer][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[h1]Rename any storage building![/h1]
+
+Shelves are great! They keep things tidy, remove beauty debuffs from contained items, prevent decay outdoors, and look great!
+
+But unlike stockpiles, you can't rename them!
+
+Well now, with the help of [i]Shelf Renamer[/i], you can!
+
+[b]All storage buildings with customisable storage now have a 'Rename' button![/b] You can rename shelves, hoppers, even storage buildings added by other mods!
+
+Give something an empty name and it will return to its original name.
+
+Safe to add to existing saves.
+
+Shelf names will show up on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=784327493]Industrial Rollers'[/url] zone select.
+
+[b]Powered by HugsLib and Harmony.[/b]
+
+[h1]Recommended Mods[/h1]
+
+For an even better shelf experience, use Shelf Renamer with:
+
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1180721235]RimFridge[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1435092881]Small Shelf[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=945085502]No Default Shelf Storage[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1339148170]Room Food[/url]
+
+[h1]Thanks[/h1]
+
+Special thanks to:
+
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1180721235]RimFridge[/url], which provided original inspiration and rename button. (Reused under MIT license.)
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=818773962]HugsLib[/url], for making custom storage easy.
+- [url=https://github.com/pardeike/Harmony]Harmony[/url], for making patching easy.
+
+[h1]Bugs[/h1]
+
+Please report bugs on this mod page or [url=https://github.com/pjf/ShelfRenamer/issues]via github[/url].
+
+[h1]License and Source[/h1]
+
+This code is released under the [url=https://github.com/pjf/ShelfRenamer/blob/master/LICENSE]MIT License[/url].
+
+Github Source: https://github.com/pjf/ShelfRenamer
+
+[h1]Support my mods[/h1]
+
+If you enjoy my mods, you can [url=https://patreon.com/_pjf]support me on Patreon[/url]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
 
