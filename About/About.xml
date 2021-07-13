@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Shelf Renamer (Continued)</name>
   <packageId>Mlie.ShelfRenamer</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -45,17 +46,17 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1515278481
 
 Shelves are great! They keep things tidy, remove beauty debuffs from contained items, prevent decay outdoors, and look great!
 
-But unlike stockpiles, you can't rename them!
+But unlike stockpiles, you can&apos;t rename them!
 
 Well now, with the help of [i]Shelf Renamer[/i], you can!
 
-[b]All storage buildings with customisable storage now have a 'Rename' button![/b] You can rename shelves, hoppers, even storage buildings added by other mods!
+[b]All storage buildings with customisable storage now have a &apos;Rename&apos; button![/b] You can rename shelves, hoppers, even storage buildings added by other mods!
 
 Give something an empty name and it will return to its original name.
 
 Safe to add to existing saves.
 
-Shelf names will show up on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=784327493]Industrial Rollers'[/url] zone select.
+Shelf names will show up on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=784327493]Industrial Rollers&apos;[/url] zone select.
 
 [b]Powered by HugsLib and Harmony.[/b]
 
@@ -88,6 +89,5 @@ This code is released under the [url=https://github.com/pjf/ShelfRenamer/blob/ma
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]
-</description>
+[/list]</description>
 </ModMetaData>

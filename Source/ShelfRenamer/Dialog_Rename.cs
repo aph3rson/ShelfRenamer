@@ -1,17 +1,16 @@
-﻿using UnityEngine;
+﻿using RimWorld;
 using Verse;
-using RimWorld;
 
 namespace ShelfRenamer
 {
     public class Dialog_Rename : Verse.Dialog_Rename
     {
-        private readonly Building_Storage building;      
+        private readonly Building_Storage building;
 
-        public Dialog_Rename(Building_Storage building) :base()
+        public Dialog_Rename(Building_Storage building)
         {
             this.building = building;
-            this.curName = building.Label;
+            curName = building.Label;
         }
 
         // By default empty strings are not allowed. We'll override
@@ -21,10 +20,10 @@ namespace ShelfRenamer
         {
             return true;
         }
-  
+
         protected override void SetName(string newName)
         {
-            ShelfRenamer.Instance.SetName(this.building, newName);
+            ShelfRenamer.Instance.SetName(building, newName);
         }
     }
 }
