@@ -17,7 +17,8 @@ namespace ShelfRenamer
             // ShelfRenamer.Instance.Log("Gizmoing " + __instance.def.thingClass.Name);
 
             // RimFridge already has its own renamer.
-            if (__instance.def.thingClass.Name == "Building_Refrigerator")
+            if (__instance.def.thingClass.Name == "Building_Refrigerator" ||
+                __instance.def.thingClass.Name == "RimFridge_Building")
             {
                 return;
             }

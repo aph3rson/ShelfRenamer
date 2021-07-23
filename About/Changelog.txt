@@ -1,5 +1,8 @@
 # Changelog for ShelfRenamer
 
+1.0.5.0 - Should now no longer try to add renamer on rimfridge, since the rimfridge rename
+
+
 1.0.4.0 - Mod updated for 1.3 and passed autotests
 
 
